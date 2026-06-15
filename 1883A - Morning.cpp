@@ -10,12 +10,6 @@ int t;
 string s;
 int main()
 {
-    if (fopen("main.inp", "r"))
-    {
-        freopen("main.inp", "r", stdin);
-        freopen("main.out", "w", stdout);
-        freopen("main.err", "w", stderr);
-    }
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
