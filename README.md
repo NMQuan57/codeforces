@@ -1,2 +1,2 @@
 # codeforces
-This is my solution for some Codeforces problem. Feel free to use and comment.
+This is my solutions for some Codeforces problem. Feel free to use.
