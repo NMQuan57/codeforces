@@ -1,0 +1,5 @@
+The problem can be addressed as follow:
+    1. The cursor need to be clicked at least four times to complete a full sequence.
+    2. The cursor moving distances between numbers is the difference between two numbers.
+    3. Therefore, we can calculate the number of moves easily by calculating the differences between two adjacent numbers, note that the first numbers will be compared with 1 as there is no number before it.
+    4. Because 0 is located at the end of the sequence, we cannot calculate the difference normally, thus, we need to replace 0 with 10 for easier calculation.
