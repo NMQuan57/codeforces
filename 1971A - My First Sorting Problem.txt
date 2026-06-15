@@ -1,0 +1,1 @@
+Straightforward. Return the min and max of x and y.
