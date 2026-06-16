@@ -1,0 +1,3 @@
+The problem requires us to maek the longest alternating subsequence while maximizing it in value.
+We first maximize the lenght by splitting the given list into blocks of numbers with same signs. This ensures we have adjacent blocks that are not similar in sign.
+We then maximize the value by taking the greatest element from each block, this would result in the longest alternating subsequence while its value is also maximized.
