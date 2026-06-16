@@ -1,0 +1,4 @@
+The problem requires us to split the given string into two so that the sum of the number of unique characters is maximized.
+As the string is at most 2e5 characters long, we can try splitting at every possible position to determine the optimal split.
+We keep track of the number of unique element by using two map and updating them after every try. 
+Note that when the value of an element in the map reaches 0, it should be removed from the map to make sure that the number of unique elements is correctly tracked.
