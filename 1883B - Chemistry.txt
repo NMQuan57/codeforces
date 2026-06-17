@@ -1,0 +1,6 @@
+We are required to make the string be able to form a palindrome by removing exactly k elements.
+In order for the string to be a palindrome, it has to have at most 1 letter whose frequency is odd.
+We can solve the problem by making the string have at most 1 letter whose frequency is odd, so all the other letters with odd frequency should have even frequency.
+First, we count the total numbers of letters whose frequency are odd, and try to take a way one letter for each to make them all even, which makes the string valid.
+But we can only do so if x the odd frequency is not greater than k, so that we could perform the operation.
+However, the string is also a palindrome if it has 1 letter with odd frequency, so now we check if the odd frequency is not greater than k + 1, as 1 letter with odd frequency is also acceptable.
