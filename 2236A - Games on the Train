@@ -1,0 +1,5 @@
+The problems requires us to make all column equal but with minimal cost.
+Every column has to be raised at least 1 level as x is required to be greater than 1.
+To level out all elements, we have to make every column as tall as the tallest one.
+We need to find the difference between the highest and the shortest, which is the k we need.
+But as I have mentioned, every column has to be raised at least 1 level, so if we keep the k as the difference between then highest and the shortest, we will ignore the given condition, so we need to add 1 to our answer.
