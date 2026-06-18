@@ -1,0 +1,2 @@
+We need to choose k numbers from 1 to n so that the sum of those numbers is k.
+We can prove that if x is is the range from the minimum sum possible to the maximum sum possible, we can alwasy choose k numbers so that it meets the requirement.
